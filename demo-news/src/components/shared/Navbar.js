@@ -42,15 +42,12 @@ const nevItems = [
         pathname: "/contacts",
     },
 
-]
-
-
-const pages = ['Products', 'Pricing', 'Blog'];
+];
 
 function Navbar() {
 
     return (
-        <AppBar position="static" className='bg-black'>
+        <AppBar position="static" className="bg-black">
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     <Image src={logo} width={100} height={100} alt='logo' />
